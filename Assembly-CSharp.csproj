@@ -119,6 +119,7 @@
      <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorRightFootBottomHeight.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorTarget.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Physics\GetSpeed.cs" />
+     <Compile Include="Assets\Scripts\Portal.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorLayersAffectMassCenter.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Array\GetFsmArrayItem.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StateMachine\SetEventData.cs" />
@@ -185,6 +186,7 @@
      <Compile Include="Assets\PlayMaker\Actions\Color\SetColorValue.cs" />
      <Compile Include="Assets\PlayMaker\Actions\UI\UiInputFieldGetTextAsInt.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animation\AddMixingTransform.cs" />
+     <Compile Include="Assets\Scripts\Collidable.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Lights\SetLightIntensity.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Color\SetColorRGBA.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StateMachine\SendEventByName.cs" />
@@ -552,6 +554,7 @@
      <Compile Include="Assets\PlayMaker\Actions\UI\UiButtonArray.cs" />
      <Compile Include="Assets\PlayMaker\Actions\String\FormatString.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Convert\ConvertSecondsToString.cs" />
+     <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\PlayMaker\Actions\String\StringSplit.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Application\TakeScreenshot.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetAtan.cs" />
@@ -561,6 +564,7 @@
      <Compile Include="Assets\PlayMaker\Actions\Transform\InverseTransformPoint.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Debug\DebugDrawShape.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Logic\BoolAnyTrue.cs" />
+     <Compile Include="Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Logic\StringCompare.cs" />
      <Compile Include="Assets\PlayMaker\Actions\UI\EventSystem\UiOnInitializePotentialDragEvent.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\GetAnimatorIsParameterControlledByCurve.cs" />
@@ -912,7 +916,9 @@
      <Compile Include="Assets\PlayMaker\Actions\GUIElement\SetGUITextureColor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Physics2D\WakeUp2d.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Debug\DebugInt.cs" />
-     <Compile Include="Assets\Scripts\Collidable.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\FloatingText.cs" />
+     <Compile Include="Assets\Scripts\FloatingTextManager.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
@@ -1146,6 +1152,12 @@
  </Reference>
  <Reference Include="PlayMaker">
  <HintPath>C:/Users/Andres/Documents/Unity/TopDungeon/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowHierarchy">
+ <HintPath>C:/Users/Andres/Documents/Unity/TopDungeon/Assets/Plugins/RainbowAssets/RainbowHierarchy/Assemblies/RainbowHierarchy.dll</HintPath>
+ </Reference>
+ <Reference Include="RainbowCore">
+ <HintPath>C:/Users/Andres/Documents/Unity/TopDungeon/Assets/Plugins/RainbowAssets/!Core/Assemblies/RainbowCore.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
